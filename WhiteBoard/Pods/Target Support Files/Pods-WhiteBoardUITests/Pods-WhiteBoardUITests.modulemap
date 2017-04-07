@@ -1,0 +1,6 @@
+framework module Pods_WhiteBoardUITests {
+  umbrella header "Pods-WhiteBoardUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
