@@ -185,7 +185,7 @@ class StrokeCGView: UIView {
         
         let azimuthSettings = {
             context.setLineWidth(1.5)
-            context.setStrokeColor(UIColor.orange.cgColor)
+            context.setStrokeColor(UIColor.green.cgColor)
         }
         let altitudeSettings = {
             context.setLineWidth(0.5)

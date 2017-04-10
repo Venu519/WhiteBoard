@@ -125,15 +125,15 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bi2-hr-XtJ">
-                                            <rect key="frame" x="84" y="7" width="283" height="28"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bi2-hr-XtJ">
+                                            <rect key="frame" x="84" y="11" width="283" height="28"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                             <color key="textColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bB-9L-bTG">
-                                            <rect key="frame" x="86" y="35" width="281" height="36"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bB-9L-bTG">
+                                            <rect key="frame" x="86" y="29" width="281" height="36"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                             <color key="textColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -146,15 +146,15 @@
                                         <constraint firstItem="Bi2-hr-XtJ" firstAttribute="leading" secondItem="37f-cq-3Eg" secondAttribute="leadingMargin" constant="76" id="B3o-Pb-wE4"/>
                                         <constraint firstAttribute="leadingMargin" secondItem="ZeX-7i-C5z" secondAttribute="leading" id="EgG-5Q-27e"/>
                                         <constraint firstItem="ZeX-7i-C5z" firstAttribute="top" secondItem="37f-cq-3Eg" secondAttribute="topMargin" constant="-1" id="HNu-1W-C8t"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="Bi2-hr-XtJ" secondAttribute="bottom" constant="36.5" id="IZF-es-HFp"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="6bB-9L-bTG" secondAttribute="bottom" constant="0.5" id="KIm-NI-Yze"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="Bi2-hr-XtJ" secondAttribute="bottom" constant="33.5" id="IZF-es-HFp"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="6bB-9L-bTG" secondAttribute="bottom" constant="4.5" id="KIm-NI-Yze"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="ZeX-7i-C5z" secondAttribute="bottom" constant="0.5" id="Piw-fY-jGs"/>
-                                        <constraint firstItem="Bi2-hr-XtJ" firstAttribute="top" secondItem="37f-cq-3Eg" secondAttribute="topMargin" constant="-1" id="SaO-9P-zBh"/>
-                                        <constraint firstItem="6bB-9L-bTG" firstAttribute="top" secondItem="37f-cq-3Eg" secondAttribute="topMargin" constant="27" id="en8-jn-OHT"/>
+                                        <constraint firstItem="Bi2-hr-XtJ" firstAttribute="top" secondItem="37f-cq-3Eg" secondAttribute="topMargin" constant="2" id="SaO-9P-zBh"/>
+                                        <constraint firstItem="6bB-9L-bTG" firstAttribute="top" secondItem="37f-cq-3Eg" secondAttribute="topMargin" constant="23" id="en8-jn-OHT"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="6bB-9L-bTG" secondAttribute="trailing" id="jhW-C7-DNB"/>
                                         <constraint firstItem="Bi2-hr-XtJ" firstAttribute="leading" secondItem="ZeX-7i-C5z" secondAttribute="trailing" constant="6" id="pGD-mW-eNA"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="Bi2-hr-XtJ" secondAttribute="trailing" id="xDz-dM-Pce"/>
-                                        <constraint firstItem="6bB-9L-bTG" firstAttribute="top" secondItem="Bi2-hr-XtJ" secondAttribute="bottom" id="xVY-j9-unQ"/>
+                                        <constraint firstItem="6bB-9L-bTG" firstAttribute="top" secondItem="Bi2-hr-XtJ" secondAttribute="bottom" constant="-7" id="xVY-j9-unQ"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -311,6 +311,7 @@
                     <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" id="DjV-YW-jjY">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="barTintColor" red="0.28902459144592285" green="0.64534640312194824" blue="0.3927609920501709" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -353,4 +354,5 @@
     <inferredMetricsTieBreakers>
         <segue reference="6S0-TO-JiA"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>

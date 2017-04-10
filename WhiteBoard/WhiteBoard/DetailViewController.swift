@@ -29,8 +29,9 @@ class DetailViewController: UIViewController, UIGestureRecognizerDelegate, UIScr
 
     func configureView() {
         // Update the user interface for the detail item.
-        let bounds = view.bounds
-        let screenBounds = UIScreen.main.bounds
+        self.navigationItem.leftBarButtonItem?.tintColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
+        let bounds = CGRect(x: 0, y: 64, width: view.frame.size.width, height: view.frame.size.height - 128)
+        let screenBounds = bounds
         let maxScreenDimension = max(screenBounds.width, screenBounds.height)
         
         let flexibleDimensions: UIViewAutoresizing = [.flexibleWidth, .flexibleHeight]
@@ -112,7 +113,7 @@ class DetailViewController: UIViewController, UIGestureRecognizerDelegate, UIScr
     // MARK: View setup helpers.
     var buttons = [UIButton]()
     func addButton(title: String, action: Selector) -> UIButton {
-        let bounds = view.bounds
+        let bounds = CGRect(x: 0, y: 64, width: view.frame.size.width, height: view.frame.size.height - 128)
         let button = UIButton(type: .custom)
         let maxX: CGFloat
         if let lastButton = buttons.last {
@@ -120,7 +121,7 @@ class DetailViewController: UIViewController, UIGestureRecognizerDelegate, UIScr
         } else {
             maxX = bounds.maxX
         }
-        button.setTitleColor(UIColor.orange, for: [])
+        button.setTitleColor(#colorLiteral(red: 0.2589190602, green: 0.5912330747, blue: 0.425693512, alpha: 1), for: [])
         button.setTitleColor(UIColor.lightGray, for: .highlighted)
         button.setTitle(title, for: [])
         button.sizeToFit()
