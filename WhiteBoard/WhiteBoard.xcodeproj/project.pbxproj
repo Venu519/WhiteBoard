@@ -25,6 +25,13 @@
 		AB00E80C1E966AC8009166AE /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB00E80B1E966AC8009166AE /* AddressBook.framework */; };
 		AB00E80E1E968588009166AE /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB00E80D1E968588009166AE /* signInViewController.swift */; };
 		AB00E8101E97D362009166AE /* AddCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB00E80F1E97D362009166AE /* AddCourseViewController.swift */; };
+		ABFB5CD61E9B83660077B4D2 /* CanvasContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFB5CCF1E9B83660077B4D2 /* CanvasContainerView.swift */; };
+		ABFB5CD71E9B83660077B4D2 /* CGDrawingEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFB5CD01E9B83660077B4D2 /* CGDrawingEngine.swift */; };
+		ABFB5CD81E9B83660077B4D2 /* CGMathExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFB5CD11E9B83660077B4D2 /* CGMathExtensions.swift */; };
+		ABFB5CD91E9B83660077B4D2 /* RingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFB5CD21E9B83660077B4D2 /* RingControl.swift */; };
+		ABFB5CDA1E9B83660077B4D2 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFB5CD31E9B83660077B4D2 /* RingView.swift */; };
+		ABFB5CDB1E9B83660077B4D2 /* StrokeCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFB5CD41E9B83660077B4D2 /* StrokeCollection.swift */; };
+		ABFB5CDC1E9B83660077B4D2 /* StrokeGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFB5CD51E9B83660077B4D2 /* StrokeGestureRecognizer.swift */; };
 		CF8C64731520D054A84AD7C2 /* Pods_WhiteBoardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6050B5A6BF2D44E2AF2EF304 /* Pods_WhiteBoardTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +83,13 @@
 		AB00E80B1E966AC8009166AE /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		AB00E80D1E968588009166AE /* signInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
 		AB00E80F1E97D362009166AE /* AddCourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCourseViewController.swift; sourceTree = "<group>"; };
+		ABFB5CCF1E9B83660077B4D2 /* CanvasContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasContainerView.swift; sourceTree = "<group>"; };
+		ABFB5CD01E9B83660077B4D2 /* CGDrawingEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGDrawingEngine.swift; sourceTree = "<group>"; };
+		ABFB5CD11E9B83660077B4D2 /* CGMathExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGMathExtensions.swift; sourceTree = "<group>"; };
+		ABFB5CD21E9B83660077B4D2 /* RingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingControl.swift; sourceTree = "<group>"; };
+		ABFB5CD31E9B83660077B4D2 /* RingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		ABFB5CD41E9B83660077B4D2 /* StrokeCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeCollection.swift; sourceTree = "<group>"; };
+		ABFB5CD51E9B83660077B4D2 /* StrokeGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeGestureRecognizer.swift; sourceTree = "<group>"; };
 		D412FA4456120A869E16DF8A /* Pods_WhiteBoardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhiteBoardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60F99F55E8515D84EA4292F /* Pods_WhiteBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhiteBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -171,6 +185,7 @@
 				AB00E7FA1E9627CA009166AE /* Model */,
 				AB00E7FB1E9627CA009166AE /* View */,
 				AB00E7FC1E9627FB009166AE /* Resources */,
+				ABFB5CCE1E9B83660077B4D2 /* ThirdParty */,
 			);
 			path = WhiteBoard;
 			sourceTree = "<group>";
@@ -227,6 +242,20 @@
 				AB00E7D71E9618C2009166AE /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		ABFB5CCE1E9B83660077B4D2 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				ABFB5CCF1E9B83660077B4D2 /* CanvasContainerView.swift */,
+				ABFB5CD01E9B83660077B4D2 /* CGDrawingEngine.swift */,
+				ABFB5CD11E9B83660077B4D2 /* CGMathExtensions.swift */,
+				ABFB5CD21E9B83660077B4D2 /* RingControl.swift */,
+				ABFB5CD31E9B83660077B4D2 /* RingView.swift */,
+				ABFB5CD41E9B83660077B4D2 /* StrokeCollection.swift */,
+				ABFB5CD51E9B83660077B4D2 /* StrokeGestureRecognizer.swift */,
+			);
+			path = ThirdParty;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -515,13 +544,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABFB5CDA1E9B83660077B4D2 /* RingView.swift in Sources */,
 				AB00E7CE1E9618C2009166AE /* DetailViewController.swift in Sources */,
 				AB00E8001E9628C3009166AE /* Subject.swift in Sources */,
 				AB00E7CC1E9618C2009166AE /* MasterViewController.swift in Sources */,
+				ABFB5CDB1E9B83660077B4D2 /* StrokeCollection.swift in Sources */,
 				AB00E7FE1E96286B009166AE /* MainTableViewCell.swift in Sources */,
 				AB00E8101E97D362009166AE /* AddCourseViewController.swift in Sources */,
 				AB00E80E1E968588009166AE /* signInViewController.swift in Sources */,
+				ABFB5CD71E9B83660077B4D2 /* CGDrawingEngine.swift in Sources */,
+				ABFB5CD81E9B83660077B4D2 /* CGMathExtensions.swift in Sources */,
+				ABFB5CD91E9B83660077B4D2 /* RingControl.swift in Sources */,
+				ABFB5CD61E9B83660077B4D2 /* CanvasContainerView.swift in Sources */,
 				AB00E7CA1E9618C2009166AE /* AppDelegate.swift in Sources */,
+				ABFB5CDC1E9B83660077B4D2 /* StrokeGestureRecognizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
