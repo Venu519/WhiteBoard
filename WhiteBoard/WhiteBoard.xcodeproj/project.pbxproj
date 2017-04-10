@@ -24,6 +24,7 @@
 		AB00E80A1E966AB9009166AE /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB00E8091E966AB9009166AE /* StoreKit.framework */; };
 		AB00E80C1E966AC8009166AE /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB00E80B1E966AC8009166AE /* AddressBook.framework */; };
 		AB00E80E1E968588009166AE /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB00E80D1E968588009166AE /* signInViewController.swift */; };
+		AB00E8101E97D362009166AE /* AddCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB00E80F1E97D362009166AE /* AddCourseViewController.swift */; };
 		CF8C64731520D054A84AD7C2 /* Pods_WhiteBoardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6050B5A6BF2D44E2AF2EF304 /* Pods_WhiteBoardTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,7 @@
 		AB00E8091E966AB9009166AE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		AB00E80B1E966AC8009166AE /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		AB00E80D1E968588009166AE /* signInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
+		AB00E80F1E97D362009166AE /* AddCourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCourseViewController.swift; sourceTree = "<group>"; };
 		D412FA4456120A869E16DF8A /* Pods_WhiteBoardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhiteBoardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60F99F55E8515D84EA4292F /* Pods_WhiteBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhiteBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -197,6 +199,7 @@
 				AB00E7CB1E9618C2009166AE /* MasterViewController.swift */,
 				AB00E7CD1E9618C2009166AE /* DetailViewController.swift */,
 				AB00E80D1E968588009166AE /* signInViewController.swift */,
+				AB00E80F1E97D362009166AE /* AddCourseViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -516,6 +519,7 @@
 				AB00E8001E9628C3009166AE /* Subject.swift in Sources */,
 				AB00E7CC1E9618C2009166AE /* MasterViewController.swift in Sources */,
 				AB00E7FE1E96286B009166AE /* MainTableViewCell.swift in Sources */,
+				AB00E8101E97D362009166AE /* AddCourseViewController.swift in Sources */,
 				AB00E80E1E968588009166AE /* signInViewController.swift in Sources */,
 				AB00E7CA1E9618C2009166AE /* AppDelegate.swift in Sources */,
 			);
